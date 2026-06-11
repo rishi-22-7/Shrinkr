@@ -13,6 +13,8 @@ const { redirectToOriginal } = require('./controllers/urlController');
 
 const app = express();
 
+app.set('trust proxy', true);
+
 app.use(cors());
 app.use(express.json());
 
