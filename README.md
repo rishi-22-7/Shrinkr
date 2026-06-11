@@ -4,8 +4,8 @@
 
 ### Premium, High-Performance Base62 URL Shortener
 
-[![Frontend Deployment](https://img.shields.io/badge/Frontend-Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)](https://url-shrinkr-web.vercel.app/)
-[![Backend Host](https://img.shields.io/badge/Backend-Render-46E3B7?style=for-the-badge&logo=render&logoColor=white)](https://dashboard.render.com)
+[![React Vercel](https://img.shields.io/badge/React-Vercel-000000?style=for-the-badge&logo=react&logoColor=61DAFB)](https://url-shrinkr-web.vercel.app/)
+[![Express Render](https://img.shields.io/badge/Express-Render-46E3B7?style=for-the-badge&logo=express&logoColor=white)](https://dashboard.render.com)
 [![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/cloud/atlas)
 [![License](https://img.shields.io/badge/License-ISC-2C221E?style=for-the-badge)](https://opensource.org/licenses/ISC)
 
@@ -239,21 +239,21 @@ node clearDb.js
 
 ## ☁️ Production Cloud Integration
 
-This project is deployed to production using Vercel (Frontend) and Render (Backend).
+This project is deployed to production using **Vercel (React client)** and **Render (Express API)**.
 
 ### Environment Mapping
 
 To link the decoupled client and API servers, configure these environments:
 
 ```
-[Vercel Frontend]                               [Render Backend]
+[React on Vercel]                               [Express on Render]
 VITE_API_URL: https://url-shrinkr-api... ───►   BASE_URL: https://url-shrinkr-api...
                                                 MONGO_URI: mongodb+srv://...
 ```
 
 > [!IMPORTANT]
-> - Ensure **`BASE_URL`** on the Render backend matches the backend's own live domain (this determines the prefix of the generated short links).
-> - Ensure **`VITE_API_URL`** on Vercel matches your Render backend URL (no trailing slash).
+> - Ensure **`BASE_URL`** on the Render (Express) backend matches the backend's own live domain (this determines the prefix of the generated short links).
+> - Ensure **`VITE_API_URL`** on Vercel (React) matches your Render backend URL (no trailing slash).
 
 ---
 
