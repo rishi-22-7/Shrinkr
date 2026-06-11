@@ -7,7 +7,6 @@
 [![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://url-shrinkr-web.vercel.app/)
 [![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://dashboard.render.com)
 [![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/cloud/atlas)
-[![License](https://img.shields.io/badge/License-ISC-2C221E?style=for-the-badge)](https://opensource.org/licenses/ISC)
 
 <br />
 
