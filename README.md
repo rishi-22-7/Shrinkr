@@ -4,8 +4,8 @@
 
 ### Premium, High-Performance Base62 URL Shortener
 
-[![React Vercel](https://img.shields.io/badge/React-Vercel-000000?style=for-the-badge&logo=react&logoColor=61DAFB)](https://url-shrinkr-web.vercel.app/)
-[![Express Render](https://img.shields.io/badge/Express-Render-46E3B7?style=for-the-badge&logo=express&logoColor=white)](https://dashboard.render.com)
+[![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)](https://url-shrinkr-web.vercel.app/)
+[![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)](https://dashboard.render.com)
 [![Database](https://img.shields.io/badge/Database-MongoDB%20Atlas-47A248?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/cloud/atlas)
 [![License](https://img.shields.io/badge/License-ISC-2C221E?style=for-the-badge)](https://opensource.org/licenses/ISC)
 
@@ -13,7 +13,7 @@
 
 <a href="https://url-shrinkr-web.vercel.app/" target="_blank">
   <kbd>
-    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-url--shrinkr--web.vercel.app-2C221E?style=for-the-badge&logo=vercel&logoColor=F2F0EA&labelColor=4E3629" alt="Launch Live App" height="42" />
+    <img src="https://img.shields.io/badge/🚀_LAUNCH_LIVE_APP-Click_Here-2C221E?style=for-the-badge&labelColor=4E3629" alt="Launch Live App" height="42" />
   </kbd>
 </a>
 
