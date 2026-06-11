@@ -1,0 +1,36 @@
+# Dependency Directories (Exclude nested node_modules)
+node_modules/
+**/node_modules/
+
+# Environment Configurations (Crucial for MongoDB Atlas connection security)
+.env
+.env.local
+.env.*.local
+**/.env
+**/server/.env
+**/client/.env
+
+# Production Build Directories (Vite compile outputs)
+dist/
+**/client/dist/
+
+# Log Files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Editor & IDE Cache Directories
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# OS Specific Files
+.DS_Store
+Thumbs.db
